@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="nexo·studio crea sistemas de identidad, experiencias digitales y diseño editorial que conectan ideas, personas y experiencias."
+    />
+    <title>nexo·studio — Diseño Visual y Digital</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Netlify detects forms from static HTML before the React application is rendered. -->
+    <form name="contact" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="name" />
+      <input name="email" type="email" />
+      <select name="type"><option value=""></option></select>
+      <textarea name="message"></textarea>
+    </form>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

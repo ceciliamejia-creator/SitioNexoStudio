@@ -1,0 +1,10 @@
+{
+  "description": "Explora el portafolio de nexo·studio, descubre sus servicios y casos de estudio, y contacta al equipo para impulsar tu próximo proyecto creativo.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
